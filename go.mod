@@ -25,6 +25,7 @@ require (
 )
 
 replace (
+	github.com/kubernetes-incubator/custom-metrics-apiserver v0.0.0-20200323093244-5046ce1afe6b => github.com/johanneswuerbach/custom-metrics-apiserver v0.0.0-20200415134956-05e3644c2d4d
 	// forced by the inclusion of sigs.k8s.io/metrics-server's use of this in their go.mod
 	k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1 => ./localvendor/k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1
 	sigs.k8s.io/metrics-server v0.3.7 => sigs.k8s.io/metrics-server v0.0.0-20200406215547-5fcf6956a533
